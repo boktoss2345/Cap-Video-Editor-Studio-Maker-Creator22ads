@@ -18,8 +18,9 @@
     "selectionMode": "sequence",
     "refreshConfigBeforeShow": true,
     "pauseWhileAppInBackground": true,
-    "avoidImmediateRepeat": true,
-    "loopSequence": true
+    "avoidImmediateRepeat": false,
+    "loopSequence": true,
+    "resetSequenceOnAppStart": true
   },
 
   "overlay": {
@@ -32,13 +33,18 @@
 
   "ads": [
     {
-      "id": "video_086357_01",
+      "id": "ad_01_video_086357",
+      "sequenceIndex": 1,
+      "counter": 1,
       "enabled": true,
+
       "elements": [
         {
           "type": "video",
           "enabled": true,
+
           "src": "https://raw.githubusercontent.com/boktoss2345/Cap-Video-Editor-Studio-Maker-Creator22ads/main/assets/086357.mp4",
+
           "autoplay": true,
           "loop": true,
           "muted": true,
@@ -58,13 +64,18 @@
     },
 
     {
-      "id": "video_12456_02",
+      "id": "ad_02_video_videos12456",
+      "sequenceIndex": 2,
+      "counter": 2,
       "enabled": true,
+
       "elements": [
         {
           "type": "video",
           "enabled": true,
+
           "src": "https://raw.githubusercontent.com/boktoss2345/Cap-Video-Editor-Studio-Maker-Creator22ads/main/assets/videos12456.mp4",
+
           "autoplay": true,
           "loop": true,
           "muted": true,
@@ -83,12 +94,16 @@
     },
 
     {
-      "id": "image_5646_03",
+      "id": "ad_03_image_images5646",
+      "sequenceIndex": 3,
+      "counter": 3,
       "enabled": true,
+
       "elements": [
         {
           "type": "image",
           "enabled": true,
+
           "src": "https://raw.githubusercontent.com/boktoss2345/Cap-Video-Editor-Studio-Maker-Creator22ads/main/assets/images5646.png",
 
           "widthPercent": 68,
